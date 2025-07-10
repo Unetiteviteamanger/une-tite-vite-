@@ -1,0 +1,50 @@
+html, body, #root {
+    min-height: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+#root {
+    min-height: 100vh;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay {
+    width: 100%;
+    max-width: 600px;
+    margin: 40px auto;
+    background: rgba(0,0,0,0.3);
+    border-radius: 18px;
+    padding: 24px;
+}
+
+.recipe-card {
+    background: rgba(255,255,255,0.13);
+    margin: 24px 0;
+    padding: 18px;
+    border-radius: 12px;
+}
+input[type="text"] {
+    width: 90%;
+    max-width: 360px;
+    padding: 8px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+}
